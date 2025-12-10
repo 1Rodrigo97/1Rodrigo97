@@ -52,9 +52,9 @@ API REST completa integrada a um front-end Vue.js, incluindo:
 
 ## 📈 Estatísticas
 
-![Rodrigo GitHub stats](https://github-readme-stats.vercel.app/api?username=1Rodrigo97&show_icons=true&theme=tokyonight)
+![GitHub Stats](https://streak-stats.demolab.com?user=1Rodrigo97&theme=tokyonight&date_format=j%2Fn%5B%2FY%5D)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=1Rodrigo97&layout=compact&theme=tokyonight)
+![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=1Rodrigo97&layout=compact&theme=tokyonight)
 
 ---
 
