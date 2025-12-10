@@ -54,9 +54,6 @@ API REST completa integrada a um front-end Vue.js, incluindo:
 
 ![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=1Rodrigo97&layout=compact&theme=tokyonight)
 
-
-![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=1Rodrigo97&layout=compact&theme=tokyonight)
-
 ---
 
 ## 📫 Como me encontrar
