@@ -1,120 +1,242 @@
 <div align="right"><a href="README.md">Versão em português →</a></div>
 
-# Rodrigo Martins
+# 👋 Hi, I'm Rodrigo Martins
 
-**Software Engineer | AI Engineering | Full Stack | RAG & Automation**
+### Software Engineer | AI Engineering | Full Stack | RAG & Automation
 
-I build enterprise systems that integrate ERPs, BPM platforms, banking APIs, messaging APIs and language models — and that stay in production, used every day.
+I build software systems, integrations, automation workflows, and AI-powered applications designed to solve real business problems.
 
-My work covers the whole cycle:
+My work spans the full software lifecycle:
 
-`business process → requirements → architecture → backend/frontend → API → database → integration → testing → troubleshooting → operation and evolution`
+**business process → requirements → architecture → backend/frontend → APIs → databases → integrations → testing → troubleshooting → production and continuous improvement**
 
-Getting the rules out of the person who owns the process is usually the hard part — and that is where the system is decided, not in the code.
+I work primarily with **Python, FastAPI, Node.js, Vue.js, TypeScript, PostgreSQL, Oracle, Docker, n8n, and AI systems involving RAG, LLMs, SLMs, embeddings, and vector search**.
 
 ---
 
-## FlowMind AI
+# 🤖 Featured Project — FlowMind AI
 
 ### RAG Engineering & Intelligent Automation Workbench
 
-**→ [github.com/1Rodrigo97/flowmind-ai](https://github.com/1Rodrigo97/flowmind-ai)**
+🔗 [github.com/1Rodrigo97/flowmind-ai](https://github.com/1Rodrigo97/flowmind-ai)
 
-A workbench for Retrieval-Augmented Generation: document ingestion, vector retrieval, grounded answers with citations, and a lab to actually **measure** whether retrieval works — instead of assuming it does.
+FlowMind AI is a public **AI Engineering** project focused on the practical implementation and evaluation of Retrieval-Augmented Generation, information retrieval, local language models, and intelligent automation.
 
-**Implemented**
+### Stack
 
-- Ingestion of **PDF, DOCX, MD and TXT**, with **SHA-256** deduplication and chunking
-- Local **embeddings** (`nomic-embed-text`, 768-d) and **vector search** on **pgvector**
-- **Grounded generation** with source citations and an **explicit refusal when context is insufficient** — the system says it does not know instead of making something up
-- **RAG Explorer** — retrieval inspection: the top-k retrieved chunks and their scores
-- **RAG Evaluation Lab** — reproducible experiments measuring **Hit@K, MRR, Precision@K and Recall@K**, comparing baseline against experiment
-- **BM25 lexical reranking** — behind a feature flag, off by default
-- Index profiles that prevent embedding incompatibility
-- **Pluggable** LLM and embedding providers
-- **Automation with n8n** — document insights, retries, idempotency and observability
+`Python` · `FastAPI` · `Vue 3` · `TypeScript` · `PostgreSQL` · `pgvector` · `Ollama` · `Docker` · `n8n`
 
-**Stack:** Python · FastAPI · SQLAlchemy 2 · PostgreSQL 16 + pgvector · Ollama (`llama3.2:3b`) · Vue 3 · TypeScript · Vite · Docker Compose · n8n
+### Implemented Features
 
-**Roadmap:** cross-encoder reranking · vLLM serving · dataset curation and fine-tuning · agents and tool calling
+- document ingestion for PDF, DOCX, Markdown, and TXT;
+- SHA-256 deduplication;
+- document chunking and embedding generation;
+- vector search with PostgreSQL + pgvector;
+- grounded RAG responses;
+- source citations;
+- explicit refusal when there is insufficient evidence;
+- RAG Explorer with retrieved chunks, similarity, and scores;
+- RAG Evaluation Lab;
+- Hit@K, MRR, Precision@K, and Recall@K metrics;
+- reproducible RAG experiments;
+- index profiles to prevent embedding incompatibility;
+- lexical BM25 reranking;
+- pluggable LLM and embedding providers;
+- intelligent automation with n8n;
+- document summaries, categories, tags, tasks, and date extraction;
+- idempotency and deduplication;
+- controlled retries;
+- pipeline and request observability.
 
----
+### Roadmap
 
-## Work on private systems
-
-Beyond the public projects, I build private enterprise systems covering financial automation, HR, invoicing, integrations, APIs and Artificial Intelligence. **Code and data are not published, for confidentiality reasons.**
-
-What those systems cover, in engineering terms:
-
-| Domain | Nature of the work |
-|---|---|
-| Financial automation | Payment processing and tracking, banking integration over mTLS and OAuth2, idempotency and an audit trail |
-| Enterprise integration | ERPs, BPM platforms and internal services, with authentication implemented by hand (OAuth 1.0a HMAC-SHA1, OAuth2, JWT, LDAP) |
-| HR and recruiting | Job portal, LLM-based résumé parsing and screening, per-role fit scoring |
-| Invoicing | Process automation and a support assistant on a messaging API, with output guardrails and handoff to a human |
-| Accounting and tax | Daily reconciliation engines over the ERP, surfacing only what needs a human decision |
-| Document validation | Document classification with a vision model, calibrated on real volume |
-| Operational dashboards | Consolidated position and indicators for management |
-| AI applied to process | Enterprise RAG, internal agents and event-driven automation |
-
----
-
-## Stack
-
-**Backend** — Python · FastAPI · Node.js · Express · REST APIs · SQLAlchemy · Sequelize · JWT · asynchronous processing
-
-**Frontend** — Vue 3 · TypeScript · JavaScript · Vite · HTML · CSS · React · SPAs and admin dashboards
-
-**Data** — PostgreSQL · Oracle · SQL · pgvector · MongoDB
-
-**AI** — RAG · LLMs · SLMs · Ollama · embeddings · vector search · prompt engineering · grounded generation · RAG evaluation · BM25 reranking · TensorFlow · Keras · OpenCV · TFLite
-
-**Automation and infrastructure** — n8n · Docker · Docker Compose · Git · GitHub · webhooks · event-driven pipelines · observability
+- cross-encoder reranking;
+- vLLM and model serving;
+- dataset curation;
+- fine-tuning;
+- AI agents;
+- tool calling.
 
 ---
 
-## Currently studying
+# 🏢 Experience with Private Enterprise Systems
 
-**vLLM** — model serving, OpenAI-compatible API, local inference, throughput, batching, concurrency, GPU and VRAM usage, and a practical comparison against Ollama. FlowMind was designed with a decoupled LLM provider precisely so this can land without rebuilding the RAG pipeline.
+In addition to my public projects, I work on **10+ private enterprise projects** involving financial automation, HR, invoicing, integrations, APIs, and Artificial Intelligence.
 
-**Fine-tuning** — studying and preparing pipelines for dataset curation, training and evaluation. The target is behaviour, intent, classification and answer format — **not** mutable business rules, which change faster than a trained model can follow.
+Because of confidentiality requirements, source code, business data, and internal implementation details are not publicly available.
 
----
+These projects cover areas such as:
 
-## Other public projects
+- financial process automation and payment tracking;
+- banking API integrations;
+- integration between legacy systems and modern applications;
+- HR, recruiting, and candidate screening;
+- invoicing automation;
+- accounting and tax reconciliation;
+- document validation;
+- treasury and cash-position systems;
+- operational dashboards;
+- enterprise RAG;
+- internal AI assistants;
+- workflow automation;
+- event-driven pipelines;
+- AI integration with operational data.
 
-**[Projeto-FullStack](https://github.com/1Rodrigo97/Projeto-FullStack)** — a monolithic Node.js + Express + Vue + PostgreSQL application: JWT authentication, protected CRUD, bulk CSV import (200k records), SQL-optimised pagination and an SPA consuming the API.
-
----
-
-## Education
-
-- **MSc in Applied Computing for Agronomy** — final stage
-- **Postgraduate specialization** in Machine Learning
-- **MBA** in Production Engineering
-- **Postgraduate specialization** in Operations and Logistics Engineering
-- **BEng in Mechatronics Engineering**
-
----
-
-## Research
-
-Experimental work, kept deliberately separate from the production systems described above.
-
-**Machine learning and deep learning** — CNN · ResNet · MobileNet · YOLO
-**Computer vision** — image classification · weed identification
-**Edge AI** — TFLite and on-device inference
-**Sensors and signals** — electronic nose · signal analysis · PCA · LDA · SVM
+My work on these systems spans process discovery, requirements, architecture, implementation, integration, testing, troubleshooting, deployment support, and ongoing evolution.
 
 ---
 
-## Contact
+# 🚀 Technology Stack
 
-**GitHub** · [1Rodrigo97](https://github.com/1Rodrigo97)
-**LinkedIn** · [rodrigo-martins-198a32157](https://www.linkedin.com/in/rodrigo-martins-198a32157/)
-**Email** · rodrigomartins246@gmail.com
+## Backend
+
+`Python` · `FastAPI` · `Node.js` · `Express.js` · `REST APIs` · `SQLAlchemy` · `Sequelize` · `JWT`
+
+## Frontend
+
+`Vue.js 3` · `TypeScript` · `JavaScript` · `Vite` · `HTML5` · `CSS3`
+
+## Databases
+
+`PostgreSQL` · `Oracle` · `SQL` · `pgvector`
+
+## AI Engineering
+
+`RAG` · `LLMs` · `SLMs` · `Ollama` · `Embeddings` · `Vector Search` · `Prompt Engineering` · `Grounded Generation` · `RAG Evaluation` · `BM25 Reranking`
+
+## Machine Learning & Computer Vision
+
+`TensorFlow` · `Keras` · `OpenCV` · `TFLite` · `CNNs` · `ResNet` · `MobileNet` · `YOLO`
+
+## Automation & Infrastructure
+
+`n8n` · `Docker` · `Docker Compose` · `Git` · `GitHub` · `Webhooks` · `APIs` · `Observability`
 
 ---
 
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=1Rodrigo97&layout=compact&theme=tokyonight&hide_border=true" alt="Most used languages" height="150">
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=1Rodrigo97&show_icons=true&theme=tokyonight&hide_border=true&hide_title=true" alt="GitHub stats" height="150">
+# 🎓 Education
+
+- 🎓 **MSc in Applied Computing — Agronomy focus** — final stage
+- 🤖 **Postgraduate specialization in Machine Learning**
+- ⚙️ **MBA in Production Engineering**
+- 📦 **Postgraduate specialization in Operations and Logistics Engineering**
+- 🦾 **BEng in Mechatronics Engineering**
+
+---
+
+# 🔬 Research & Applied Computing
+
+My academic research explores Artificial Intelligence applications in engineering and agronomy.
+
+Research areas include:
+
+- Machine Learning;
+- Deep Learning;
+- CNNs;
+- ResNet;
+- MobileNet;
+- YOLO;
+- Computer Vision;
+- TensorFlow and Keras;
+- TFLite;
+- Edge AI;
+- image classification;
+- weed identification;
+- sensors;
+- electronic nose systems;
+- signal analysis;
+- PCA;
+- LDA;
+- SVM.
+
+> Academic and experimental work is intentionally presented separately from production systems.
+
+---
+
+# 💻 Other Public Projects
+
+## Full Stack Project
+
+🔗 [github.com/1Rodrigo97/Projeto-FullStack](https://github.com/1Rodrigo97/Projeto-FullStack)
+
+Full stack application built with:
+
+- Node.js;
+- Express.js;
+- Vue.js;
+- PostgreSQL;
+- JWT authentication;
+- protected CRUD operations;
+- bulk CSV imports;
+- processing of more than 200,000 records;
+- optimized SQL pagination;
+- SPA integrated with the backend API.
+
+---
+
+# 🧠 Currently Exploring
+
+I am currently expanding my knowledge in areas related to modern AI systems and AI infrastructure.
+
+### RAG Engineering
+
+- RAG evaluation and optimization;
+- retrieval;
+- chunking;
+- embeddings;
+- vector search;
+- reranking;
+- retrieval evaluation;
+- grounded generation.
+
+### Model Serving
+
+- local language models;
+- SLMs;
+- Ollama;
+- **vLLM**;
+- OpenAI-compatible APIs;
+- concurrency;
+- batching;
+- throughput;
+- tokens per second;
+- GPU and VRAM utilization.
+
+### Fine-Tuning
+
+- dataset curation;
+- data preparation;
+- LoRA / QLoRA;
+- pre- and post-training evaluation;
+- intent classification;
+- response behavior and formatting.
+
+### Agents & Automation
+
+- AI Agents;
+- Tool Calling;
+- LLM-to-API integration;
+- intelligent automation;
+- n8n workflows;
+- AI system architecture.
+
+> **vLLM:** currently under study and planned as the next practical implementation.  
+> **Fine-tuning:** pipelines and datasets are being prepared; it is not yet presented as production-proven experience.
+
+---
+
+# 🎯 Areas of Interest
+
+I am interested in opportunities and projects involving:
+
+**Software Engineering · Backend Engineering · Full Stack · AI Engineering · Generative AI · RAG · LLMs · APIs · Automation**
+
+Especially in environments where software and Artificial Intelligence can be used to automate processes, integrate systems, and solve real business problems.
+
+---
+
+# 📫 Contact
+
+📧 [rodrigomartins246@gmail.com](mailto:rodrigomartins246@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/rodrigo-martins-198a32157/)  
+🐙 [GitHub](https://github.com/1Rodrigo97)
