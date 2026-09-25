@@ -4,23 +4,23 @@
 
 Desenvolvo soluções de software, integrações, automações e aplicações com Inteligência Artificial voltadas a problemas reais de negócio.
 
-Minha atuação passa pelo ciclo completo de desenvolvimento:
+Minha atuação percorre o ciclo completo de desenvolvimento:
 
 **processo de negócio → requisitos → arquitetura → backend/frontend → APIs → banco de dados → integrações → testes → troubleshooting → operação e evolução**
 
-Atuo principalmente com **Python, FastAPI, Node.js, Vue.js, TypeScript, PostgreSQL, Oracle, Docker, n8n e aplicações de IA utilizando RAG, LLMs, SLMs e busca vetorial**.
+Atuo principalmente com **Python, FastAPI, Node.js, Vue.js, TypeScript, PostgreSQL, Oracle, Docker, n8n e aplicações de IA envolvendo RAG, LLMs, SLMs, embeddings e busca vetorial**.
 
 [🇺🇸 English version](./README.en.md)
 
 ---
 
-## 🤖 Projeto em destaque — FlowMind AI
+# 🤖 Projeto em destaque — FlowMind AI
 
 ### RAG Engineering & Intelligent Automation Workbench
 
 🔗 [github.com/1Rodrigo97/flowmind-ai](https://github.com/1Rodrigo97/flowmind-ai)
 
-Projeto público voltado ao estudo e implementação prática de **Engenharia de IA**, com foco em RAG, avaliação de recuperação, modelos locais e automação inteligente.
+Projeto público de **Engenharia de IA** voltado à implementação e avaliação prática de RAG, recuperação de informação, modelos locais e automação inteligente.
 
 ### Stack
 
@@ -28,36 +28,40 @@ Projeto público voltado ao estudo e implementação prática de **Engenharia de
 
 ### Recursos implementados
 
-- ingestão de PDF, DOCX, Markdown e TXT;
+- ingestão de documentos PDF, DOCX, Markdown e TXT;
 - deduplicação por SHA-256;
-- chunking e embeddings;
+- chunking e geração de embeddings;
 - busca vetorial com PostgreSQL + pgvector;
-- RAG com respostas fundamentadas;
+- RAG com respostas fundamentadas em documentos;
 - citação das fontes utilizadas;
 - recusa quando não existe evidência suficiente;
-- Explorador RAG com chunks e scores;
+- Explorador RAG com chunks, similaridade e scores;
 - Laboratório de Avaliação RAG;
-- Hit@K, MRR, Precision@K e Recall@K;
+- métricas Hit@K, MRR, Precision@K e Recall@K;
 - experimentos reproduzíveis;
+- perfis de indexação para evitar incompatibilidade entre embeddings;
 - reranking lexical BM25;
+- arquitetura desacoplada de provedores de LLM e embeddings;
 - automação inteligente com n8n;
-- geração de resumo, categorias, tags, tarefas e datas;
-- idempotência, retry e observabilidade;
-- arquitetura desacoplada de provedores de LLM e embeddings.
+- geração de resumos, categorias, tags, tarefas e datas;
+- idempotência e deduplicação;
+- retry controlado;
+- observabilidade de pipelines e requisições.
 
 ### Roadmap
 
-- cross-encoder reranking;
-- vLLM;
+- reranking com cross-encoder;
+- vLLM e model serving;
 - curadoria de datasets;
 - fine-tuning;
-- agents e tool calling.
+- agents;
+- tool calling.
 
 ---
 
-## 🏢 Experiência com sistemas privados
+# 🏢 Experiência com sistemas privados
 
-Além dos projetos públicos, desenvolvo **mais de 10 sistemas corporativos privados** envolvendo automação financeira, RH, faturamento, integrações, APIs e Inteligência Artificial.
+Além dos projetos públicos, desenvolvo **10+ projetos corporativos privados** envolvendo automação financeira, RH, faturamento, integrações, APIs e Inteligência Artificial.
 
 Por confidencialidade, código, dados e detalhes internos desses sistemas não são publicados.
 
@@ -65,6 +69,7 @@ Entre os domínios em que trabalho estão:
 
 - automação e acompanhamento de processos financeiros;
 - integrações com APIs bancárias e sistemas corporativos;
+- integração entre sistemas legados e aplicações modernas;
 - RH, recrutamento e triagem de candidatos;
 - automação de faturamento;
 - conferência contábil e fiscal;
@@ -72,42 +77,46 @@ Entre os domínios em que trabalho estão:
 - tesouraria e posição de caixa;
 - dashboards operacionais;
 - RAG corporativo;
-- assistentes internos com IA;
-- automação de processos e integrações orientadas a eventos.
+- assistentes internos com Inteligência Artificial;
+- automação de processos;
+- pipelines orientados a eventos;
+- integração de IA com dados operacionais.
+
+Esses projetos envolvem atividades que vão desde o entendimento do processo até implementação, testes, integração, troubleshooting e evolução do sistema em operação.
 
 ---
 
-## 🚀 Tecnologias
+# 🚀 Tecnologias
 
-### Backend
+## Backend
 
 `Python` · `FastAPI` · `Node.js` · `Express.js` · `REST APIs` · `SQLAlchemy` · `Sequelize` · `JWT`
 
-### Frontend
+## Frontend
 
 `Vue.js 3` · `TypeScript` · `JavaScript` · `Vite` · `HTML5` · `CSS3`
 
-### Banco de Dados
+## Banco de Dados
 
-`PostgreSQL` · `Oracle` · `SQL` · `pgvector` · `MongoDB`
+`PostgreSQL` · `Oracle` · `SQL` · `pgvector`
 
-### AI Engineering
+## AI Engineering
 
 `RAG` · `LLMs` · `SLMs` · `Ollama` · `Embeddings` · `Vector Search` · `Prompt Engineering` · `Grounded Generation` · `RAG Evaluation` · `BM25 Reranking`
 
-### Machine Learning & Computer Vision
+## Machine Learning & Computer Vision
 
-`TensorFlow` · `Keras` · `OpenCV` · `TFLite` · `CNNs` · `YOLO`
+`TensorFlow` · `Keras` · `OpenCV` · `TFLite` · `CNNs` · `ResNet` · `MobileNet` · `YOLO`
 
-### Automação & Infraestrutura
+## Automação & Infraestrutura
 
 `n8n` · `Docker` · `Docker Compose` · `Git` · `GitHub` · `Webhooks` · `APIs` · `Observabilidade`
 
 ---
 
-## 🎓 Formação
+# 🎓 Formação
 
-- 🎓 **Mestrado em Computação Aplicada à Agronomia** — etapa final
+- 🎓 **Mestrado em Computação Aplicada à Agronomia** — em fase final
 - 🤖 **Pós-graduação em Aprendizado de Máquina**
 - ⚙️ **MBA em Engenharia de Produção**
 - 📦 **Pós-graduação em Engenharia de Operações e Logística**
@@ -115,11 +124,11 @@ Entre os domínios em que trabalho estão:
 
 ---
 
-## 🔬 Pesquisa e Computação Aplicada
+# 🔬 Pesquisa e Computação Aplicada
 
 Minha pesquisa acadêmica envolve aplicações de Inteligência Artificial em problemas de engenharia e agronomia.
 
-Áreas de estudo:
+Entre as áreas estudadas estão:
 
 - Machine Learning;
 - Deep Learning;
@@ -128,7 +137,10 @@ Minha pesquisa acadêmica envolve aplicações de Inteligência Artificial em pr
 - MobileNet;
 - YOLO;
 - visão computacional;
-- TFLite e Edge AI;
+- TensorFlow e Keras;
+- TFLite;
+- Edge AI;
+- classificação de imagens;
 - identificação de plantas daninhas;
 - sensores;
 - nariz eletrônico;
@@ -137,17 +149,17 @@ Minha pesquisa acadêmica envolve aplicações de Inteligência Artificial em pr
 - LDA;
 - SVM.
 
-> Os trabalhos acadêmicos e experimentais são apresentados separadamente dos sistemas utilizados em ambiente corporativo.
+> Os projetos e resultados acadêmicos são apresentados separadamente dos sistemas utilizados em ambiente corporativo.
 
 ---
 
-## 💻 Outros projetos públicos
+# 💻 Outros projetos públicos
 
-### Projeto Full Stack
+## Projeto Full Stack
 
 🔗 [github.com/1Rodrigo97/Projeto-FullStack](https://github.com/1Rodrigo97/Projeto-FullStack)
 
-Aplicação full stack utilizando:
+Aplicação full stack desenvolvida com:
 
 - Node.js;
 - Express.js;
@@ -155,27 +167,57 @@ Aplicação full stack utilizando:
 - PostgreSQL;
 - autenticação JWT;
 - CRUD protegido;
-- importação massiva de CSV;
-- mais de 200 mil registros;
-- paginação otimizada;
+- importação massiva de arquivos CSV;
+- processamento de mais de 200 mil registros;
+- paginação otimizada com SQL;
 - SPA integrada à API.
 
 ---
 
-## 🧠 Estudando atualmente
+# 🧠 Atualmente aprofundando
 
-Estou aprofundando conhecimentos em:
+Atualmente estou aprofundando conhecimentos em áreas relacionadas à evolução de sistemas de Inteligência Artificial aplicados a software.
 
-- RAG Engineering;
+### RAG Engineering
+
 - avaliação e otimização de sistemas RAG;
-- modelos locais e SLMs;
-- **vLLM e model serving**;
-- cross-encoder reranking;
+- retrieval;
+- chunking;
+- embeddings;
+- vector search;
+- reranking;
+- avaliação de recuperação;
+- grounded generation.
+
+### Model Serving
+
+- modelos locais;
+- SLMs;
+- Ollama;
+- **vLLM**;
+- APIs compatíveis com OpenAI;
+- concorrência;
+- batching;
+- throughput;
+- tokens por segundo;
+- GPU e VRAM.
+
+### Fine-tuning
+
 - curadoria de datasets;
-- **fine-tuning com LoRA/QLoRA**;
+- preparação de dados;
+- LoRA / QLoRA;
+- avaliação antes e depois do treinamento;
+- classificação de intenção;
+- comportamento e padronização de respostas.
+
+### Agents & Automation
+
 - AI Agents;
 - Tool Calling;
+- integração entre LLMs e APIs;
 - automação inteligente;
+- workflows com n8n;
 - arquitetura de sistemas de IA.
 
 > **vLLM:** em estudo e próxima implementação prática.  
@@ -183,26 +225,29 @@ Estou aprofundando conhecimentos em:
 
 ---
 
-## 🎯 Áreas de interesse
+# 🎯 Áreas de interesse
 
-Tenho interesse em oportunidades envolvendo:
+Tenho interesse em oportunidades e projetos envolvendo:
 
-**Software Engineering · Backend Engineering · Full Stack · AI Engineering · Generative AI · RAG · LLMs · Automation**
+**Software Engineering · Backend Engineering · Full Stack · AI Engineering · Generative AI · RAG · LLMs · APIs · Automation**
+
+Especialmente em ambientes onde software e Inteligência Artificial possam ser utilizados para automatizar processos, integrar sistemas e resolver problemas reais de negócio.
 
 ---
 
-## 📫 Contato
+# 📫 Contato
 
-📧 **E-mail:** [rodrigomartins246@gmail.com](mailto:rodrigomartins246@gmail.com)
+📧 **E-mail**  
+[rodrigomartins246@gmail.com](mailto:rodrigomartins246@gmail.com)
 
-🔗 **LinkedIn:**  
+🔗 **LinkedIn**  
 [linkedin.com/in/rodrigo-martins-198a32157](https://www.linkedin.com/in/rodrigo-martins-198a32157/)
 
-🐙 **GitHub:**  
+🐙 **GitHub**  
 [github.com/1Rodrigo97](https://github.com/1Rodrigo97)
 
 ---
 
-### Estatísticas
+# 📊 Estatísticas
 
 ![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=1Rodrigo97&layout=compact&theme=tokyonight)
