@@ -81,20 +81,30 @@ O que esses sistemas cobrem, em capacidade técnica:
 
 ---
 
-## Pesquisa acadêmica
+## Outros projetos públicos
 
-Mestrando em **Computação Aplicada**. É uma frente experimental, e fica deliberadamente separada dos sistemas em produção acima.
+**[Projeto-FullStack](https://github.com/1Rodrigo97/Projeto-FullStack)** — aplicação monolítica Node.js + Express + Vue + PostgreSQL: autenticação JWT, CRUD protegido, importação massiva de CSV (200 mil registros), paginação otimizada em SQL e SPA consumindo a API.
+
+---
+
+## Formação
+
+- **Mestrado em Computação Aplicada à Agronomia** — etapa final
+- **Pós-graduação** em Aprendizado de Máquina
+- **MBA** em Engenharia de Produção
+- **Pós-graduação** em Engenharia de Operações e Logística
+- **Engenharia Mecatrônica** — graduação
+
+---
+
+## Pesquisa
+
+Frente experimental, deliberadamente separada dos sistemas em produção descritos acima.
 
 **Machine learning e deep learning** — CNN · ResNet · MobileNet · YOLO
 **Visão computacional** — classificação de imagens · identificação de plantas daninhas
 **Edge AI** — TFLite e inferência em dispositivo
 **Sensores e sinais** — nariz eletrônico · análise de sinais · PCA · LDA · SVM
-
----
-
-## Outros projetos públicos
-
-**[Projeto-FullStack](https://github.com/1Rodrigo97/Projeto-FullStack)** — aplicação monolítica Node.js + Express + Vue + PostgreSQL: autenticação JWT, CRUD protegido, importação massiva de CSV (200 mil registros), paginação otimizada em SQL e SPA consumindo a API.
 
 ---
 

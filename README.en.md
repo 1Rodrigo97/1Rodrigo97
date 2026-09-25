@@ -81,20 +81,30 @@ What those systems cover, in engineering terms:
 
 ---
 
-## Academic research
+## Other public projects
 
-MSc student in **Applied Computing**. This is experimental work, and it is kept deliberately separate from the production systems above.
+**[Projeto-FullStack](https://github.com/1Rodrigo97/Projeto-FullStack)** — a monolithic Node.js + Express + Vue + PostgreSQL application: JWT authentication, protected CRUD, bulk CSV import (200k records), SQL-optimised pagination and an SPA consuming the API.
+
+---
+
+## Education
+
+- **MSc in Applied Computing for Agronomy** — final stage
+- **Postgraduate specialization** in Machine Learning
+- **MBA** in Production Engineering
+- **Postgraduate specialization** in Operations and Logistics Engineering
+- **BEng in Mechatronics Engineering**
+
+---
+
+## Research
+
+Experimental work, kept deliberately separate from the production systems described above.
 
 **Machine learning and deep learning** — CNN · ResNet · MobileNet · YOLO
 **Computer vision** — image classification · weed identification
 **Edge AI** — TFLite and on-device inference
 **Sensors and signals** — electronic nose · signal analysis · PCA · LDA · SVM
-
----
-
-## Other public projects
-
-**[Projeto-FullStack](https://github.com/1Rodrigo97/Projeto-FullStack)** — a monolithic Node.js + Express + Vue + PostgreSQL application: JWT authentication, protected CRUD, bulk CSV import (200k records), SQL-optimised pagination and an SPA consuming the API.
 
 ---
 
